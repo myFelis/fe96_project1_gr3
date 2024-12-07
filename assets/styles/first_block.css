@@ -1,0 +1,277 @@
+.header_line_1 {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 6%) 69% repeat(4, 6%);
+  max-width: 1200px;
+  width: 100%;
+  padding: 1.5% 1.5%;
+  margin-left: 1.5vh;
+}
+.nav-item {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 0.63em;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.img-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-title {
+  /* Eco-Friendly Paints For A Healthy Home */
+  position: absolute;
+  width: 25%;
+  height: 197px;
+  left: 19%;
+  top: 104px;
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 65.63px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.shop {
+  /* Rectangle */
+  position: absolute;
+  width: 10%;
+  height: 37px;
+  left: 362px;
+  top: 345px;
+  box-sizing: border-box;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 4.17px;
+  background: rgb(31, 30, 30);
+}
+.cookies {
+  display: none;
+}
+.accept_cookies {
+  display: flex;
+}
+.cookies-main {
+  /* Cookies */
+  position: absolute;
+  width: 5vh;
+  height: 17px;
+  left: 1220px;
+  top: 687px;
+  color: rgb(60, 60, 60);
+  font-family: Roboto;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 16.25px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.use-cookies {
+  /* We use cookies to ensure that we give you the best experience on our website. If you continue, we’ll assume that you are happy to receive all the cookies on the Palette website. */
+  position: absolute;
+  width: 28.6vh;
+  height: 55px;
+  left: 1220px;
+  top: 720px;
+  color: rgb(60, 60, 60);
+  font-size: 0.6em;
+  font-weight: 400;
+  line-height: 13.75px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.manage {
+  /* Manage */
+  left: 1260px;
+  text-decoration: none;
+  position: absolute;
+  width: 3.5vh;
+  height: 9px;
+  top: 790px;
+  color: rgb(31, 30, 30);
+  font-family: Roboto;
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accept {
+  /* Accept */
+  left: 1406px;
+  text-decoration: none;
+  position: absolute;
+  width: 3.5vh;
+  height: 9px;
+  top: 790px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 2804px) {
+  .main-title {
+    font-size: 4em;
+    line-height: 55.63px;
+    left: 28%;
+  }
+  .shop {
+    left: 28%;
+  }
+}
+@media all and (max-width: 2280px) {
+  .header_line_1 {
+    grid-template-columns: repeat(3, 6%) 65% 7% repeat(3, 6%);
+  }
+  .main-title {
+    font-size: 3em;
+    line-height: 45.63px;
+    left: 25%;
+  }
+  .shop {
+    left: 25%;
+  }
+  .cookies-main {
+    left: 1000px;
+    top: 687px;
+  }
+  .use-cookies {
+    left: 1000px;
+    top: 710px;
+  }
+  .manage {
+    left: 1030px;
+    top: 800px;
+  }
+  .accept {
+    left: 1130px;
+    top: 800px;
+  }
+}
+
+@media all and (max-width: 1480px) {
+  .header_line_1 {
+    grid-template-columns: repeat(3, 5%) 54% 6% 5% 5% 5%;
+  }
+  .nav-item {
+    font-size: 0.45em;
+  }
+  .main-title {
+    font-size: 3em;
+    line-height: 45.63px;
+    left: 200px;
+  }
+  .shop {
+    left: 200px;
+    height: 37px;
+  }
+  .cookies-main {
+    left: 680px;
+    top: 467px;
+  }
+  .use-cookies {
+    left: 680px;
+    top: 490px;
+  }
+  .manage {
+    left: 720px;
+    top: 570px;
+  }
+  .accept {
+    left: 820px;
+    top: 570px;
+  }
+}
+@media all and (max-width: 990px) {
+  .header_line_1 {
+    grid-template-columns: repeat(3, 4%) 40% 6% 4% 4% 4%;
+  }
+  .nav-item {
+    font-size: 0.4em;
+  }
+  .main-title {
+    font-size: 2em;
+    line-height: 40px;
+    left: 200px;
+  }
+  .shop {
+    left: 200px;
+    top: 260px;
+    height: 27px;
+    font-size: 0.8em;
+  }
+  .cookies-main {
+    left: 580px;
+    top: 347px;
+    font-size: 0.5em;
+  }
+  .use-cookies {
+    left: 580px;
+    top: 370px;
+    font-size: 0.45em;
+  }
+  .manage {
+    left: 620px;
+    top: 420px;
+    font-size: 0.4em;
+  }
+  .accept {
+    left: 720px;
+    top: 420px;
+    font-size: 0.4em;
+  }
+}
+@media all and (max-width: 767px) {
+  .header_line_1 {
+    grid-template-columns: repeat(3, 6%) 50% 7% repeat(3, 6%);
+  }
+  .nav-item {
+    font-size: 0.3em;
+  }
+  .main-title {
+    font-size: 1.3em;
+    line-height: 20px;
+    left: 55px;
+    top: 50px;
+  }
+  .shop {
+    left: 55px;
+    top: 170px;
+    height: 27px;
+    font-size: 0.4em;
+  }
+  .cookies-main {
+    left: 250px;
+    top: 147px;
+    font-size: 0.3em;
+  }
+  .use-cookies {
+    left: 250px;
+    top: 157px;
+    font-size: 0.2em;
+  }
+  .manage {
+    left: 270px;
+    top: 200px;
+    font-size: 0.2em;
+  }
+  .accept {
+    left: 310px;
+    top: 200px;
+    font-size: 0.2em;
+  }
+}
