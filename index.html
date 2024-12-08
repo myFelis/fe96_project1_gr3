@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/first_block.css" />
     <link rel="stylesheet" href="assets/styles/no_pallets.css">
+    <link rel="stylesheet" href="assets/styles/foot.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,8 +26,8 @@
           <a class="nav-item" href="#dd">FAQ</a>
           <a class="nav-item" href="pages/page_test.html">Calculator</a>
           <a class="nav-item" href="#login">Log in</a>
-          <a class="nav-item" href="#dd">About</a>
-          <a class="nav-item" href="#dd">Contacts</a>
+          <a class="nav-item" href="#about">About</a>
+          <a class="nav-item" href="#about">Contacts</a>
         </nav>
         <div class="first-block" id="1">
         <img class="img-1" src="assets/images/1.png" alt="design" />
@@ -50,45 +51,10 @@
         
         </header>
     </div>
-    <div class="container">
-      <div class="first-block" id="aa">
-        <img class="img-1" src="assets/images/1.png" alt="design" />
-        <h2 class="main-title">New Drops </h2>
-        <button class="shop">
-          <span style="color: aliceblue; text-transform: uppercase;font-size: 0.56em;">Shop our colors</span>
-        </button>
-      </div>
-    </div>
-    <div class="container">
-      <div class="first-block" id="bb">
-        <img class="img-1" src="assets/images/1.png" alt="design" />
-        <h2 class="main-title">No, No, No </h2>
-        <button class="shop">
-          <span style="color: aliceblue; text-transform: uppercase;font-size: 0.56em;">Shop our colors</span>
-        </button>
-      </div>
-    </div>
-    <div class="container">
-      <div class="first-block" id="cc">
-        <img class="img-1" src="assets/images/1.png" alt="design" />
-        <h2 class="main-title"> </h2>
-        <button class="shop">
-          <span style="color: aliceblue; text-transform: uppercase;font-size: 0.56em;">Shop our colors</span>
-        </button>
-      </div>
-    </div>
-    <div class="container">
-      <div class="first-block" id="dd">
-        <img class="img-1" src="assets/images/1.png" alt="design" />
-        <h2 class="main-title">PALLETE</h2>
-        <button class="shop">
-          <span style="color: aliceblue; text-transform: uppercase;font-size: 0.56em;">Shop our colors</span>
-        </button>
-      </div>
-    </div>
-</div>
-<div class="container-drops">
-  <h1 class="main-title">New Drops</h1>
+    
+<div><h2 class="no_h2">New Drops</h2></div>
+
+<div class="container-drops" id="aa">
   <div class="color-grid">
     <div class="color-item item1 ">
       <div class="color-sample">
@@ -171,16 +137,19 @@
     </div>
   </div>
 </div>
-<div class="no">
+<div class="no" id="bb">
   <div class="pure">
-      <div class="img_pure"><img src="\assets\images\12.png" alt="wall">
+      <div class="img_pure"><img src="assets/images/12.png" alt="wall">
       </div>
       <div class="pure_text">
         <h3 class="h3_pure">Purifies indoor spaces of airborne pollutants.</h3>
         <article class="article_pure">ANTI-MOLDING, ZERO VOC, ODORLESS AND EASY TO CLEAN</article>
       </div>
   </div>
-  <h2 class="no_h2">No, No, No</h2>
+</div>
+  <br>
+<div class="container">
+  <div><h2 class="no_h2">No, No, No</h2></div>
   <div class="no_text">
   <p>No VOC — better for you and the environment</p>
   <p>No Odor — avoid unpleasant paint smells</p>
@@ -189,30 +158,78 @@
   <div class="button_a">
       <button class="button_about">About Palette</button>
   </div>
-  <div class="try">
+  <div class="try" id="cc">
       <div class="try_class">
           <h3 class="h3_try">Try our sticker samples before making up your mind!</h3>
           <button class="button_shop">SHOP OUR SAMPLES</button>
       </div>
       <div class="img_try">
-          <img src="\assets\images\14.png" alt="shelves"></div>
+          <img src="assets/images/14.png" alt="shelves"></div>
   </div>
   <div class="pallets">
       <div class="img_pallets">
           <div class="div1">
-            <img src="\assets\images\15.png" alt="grey" class="i1">
-          <img src="\assets\images\16.png" alt="green" class="i2">
+            <img src="assets/images/15.png" alt="grey" class="i1">
+          <img src="assets/images/16.png" alt="green" class="i2">
           </div>
           <div class="div2">
-          <img src="\assets\images\17.png" alt="bej" class="i3"> 
-          <img src="\assets\images\18.png" alt="black" class="i4"> 
+          <img src="assets/images/17.png" alt="bej" class="i3"> 
+          <img src="assets/images/18.png" alt="black" class="i4"> 
           </div>
       </div>
-      <div class="pallets1">
+      <div class="pallets1" id="dd">
           <h3 class="h3_pallets">Put some colours into your life!</h3>
           <h4 class="h4_pallets">@Pallets.eco</h4>
           <div class="pallets_text">Find more inspiration on our instagram account</div>
       </div>
+  </div>
+</div>
+
+      <footer>
+        <div class="container-footer">
+          <div class="top">
+            <div class="top-left"  id="login">
+              <h1>Sign up now and stay inspired!</h1>
+              <input type="text" placeholder="Email">
+              <button>→</button>
+              <p>Non toxic and VOC free, offering exceptional durability, coverage and washability.</p>
+            </div>
+            <div class="top-right">
+                <h3>Shop</h3>
+                <ul>
+                  <li>Paints</li>
+                  <li>Samples</li>
+                  <li>Supplies</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h3>Discover</h3>
+                <ul>
+                  <li>Gallery</li>
+                  <li>Air Purifying</li>
+                  <li>Pro</li>
+                </ul>
+              </div>
+              <div class="column"  id="about">
+                <h3>About</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>FAQ</li>
+                  <li>Shipping & Returns</li>
+                </ul>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="bottom-inner">
+              <h2 class="palette-logo">PALETTE</h2>
+              <p><span>We are on Trustpilot</span></p>
+              <div class="bottom-nav">
+                <p>Terms of service | Privacy Policy | Language: English </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>  
     </body>
     
     </html>
