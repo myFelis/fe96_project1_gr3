@@ -224,12 +224,24 @@
               <h2 class="palette-logo">PALETTE</h2>
               <p><span>We are on Trustpilot</span></p>
               <div class="bottom-nav">
-                <p>Terms of service | Privacy Policy | Language: English </p>
+                <p>Terms of service | Privacy Policy</p>
+                <form>
+                  <select id="lang" name="lang" onchange="handleLangChange()">
+                    <option value="English">English</option>
+                    <option value="Русский">Русский</option>
+                  </select>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </footer>  
     </body>
-    
+    <script>
+      function handleLangChange() {
+        const selectLang = document.getElementById("lang");
+        const selectedLang = selectLang.value;
+        alert("Language: " + selectedLang);
+      }
+    </script>
     </html>
