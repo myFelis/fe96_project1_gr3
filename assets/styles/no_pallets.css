@@ -1,0 +1,140 @@
+    .pure {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: cover;
+    margin-top: 7%
+    }
+    
+    .pure-text {
+        background-color: #c7a65e;
+        width: 40%;
+        font-size: 10rem;
+    }
+    .img_pure {
+        
+        
+    }
+    .no_h2 {
+        font-size: 10rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+    }
+    .no_text {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button_a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button_about {
+        background: black;
+        color: white;
+        border: none;
+        position: relative;
+        border-radius: 4px;
+        height: 3em;
+        width: 18em;
+    }
+        
+    .try {
+        height: 50vh;
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3% 3%;
+        padding: 3% 3%;
+
+    }
+
+    .try_class {   
+        display: flex;
+        background-image: url(../images/13.png);
+        width: 40%;
+        height: 100hv;
+        width: 100wv;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h3_try {
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        width: 60%;
+        padding: 3%;
+        font-weight: 30;
+        align-self:center;
+    }
+    
+    .pallets {
+        margin-top: 7%;
+        padding: 3% 3%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        padding: 3% 3%;
+        align-items: center;
+        flex-direction: row;
+        height: 50vh;
+    }
+    .img_shelves {
+        height: 120%;
+    }
+
+    .img_pallets {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: contain;
+        justify-content: space-evenly;
+        margin: 3% 3%;
+        padding: 3% 3%;
+    }
+    .i1, .i2, .i3, .i4 {
+        margin: 2px 2px;
+        padding: 2px 2px;
+    } 
+    .pallets1 {
+        background-color: rgba(198, 188, 138, 1);
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        width: 60%;
+        padding: 3%;
+        margin: 5%;
+        font-weight: 30;
+        align-items:center;
+        flex-direction: column;
+        height: 35vh;
+        width: 30vw;
+        
+    }
+    .button_shop {
+        background: black;
+        color: white;
+        border: none;
+        position: relative;
+        border-radius: 4px;
+        height: 3em;
+        width: 18em;
+    }
+    .h4_pallets {
+        font-size: 2rem;
+    }
+    .h3_pallets {
+        font-size: 4rem;
+    }
