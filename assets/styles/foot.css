@@ -34,7 +34,11 @@ justify-content: center;
 display: flex;
 flex-direction: column;
 align-items: center; 
-width: 80%; 
+width: 80%;
+}
+
+.palette-logo {
+font-size: 24em;
 }
 
 .bottom-nav {

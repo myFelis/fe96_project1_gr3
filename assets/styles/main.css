@@ -80,9 +80,24 @@ h2 {
   position: absolute; /* 2 */
 }
 
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #4A614A;
+}
+
 @font-face {
   font-family: Roboto;
-  src: url(./Roboto-Regular.woff2) format(.woff2);
+  src: url(../fonts/Roboto-Regular.woff2);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
