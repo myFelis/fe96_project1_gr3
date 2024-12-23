@@ -41,6 +41,10 @@
 .shop {
   /* Rectangle */
   position: absolute;
+  color: white;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
   width: 10%;
   height: 37px;
   left: 362px;
@@ -49,6 +53,8 @@
   border: 1px solid rgb(31, 30, 30);
   border-radius: 4.17px;
   background: rgb(31, 30, 30);
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .cookies {
   display: none;
@@ -78,7 +84,7 @@
   width: 28.6vh;
   height: 55px;
   left: 1220px;
-  top: 720px;
+  top: 620px;
   color: rgb(60, 60, 60);
   font-size: 0.6em;
   font-weight: 400;
