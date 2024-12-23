@@ -1,5 +1,5 @@
     .pure {
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -7,25 +7,34 @@
     justify-content: space-evenly;
     align-items: center;
     object-fit: cover;
-    margin-top: 7%;
     }
     
     .pure-text {
-        background-color: #F4EDE6;
-        width: 49%;
         font-size: 1.0rem;
-        align-items: end;
+        align-items: center;
         margin: 15%;
+        text-align: center;
     }
-    .h3-pure{
+    .h3-pure {
         color: #425E44;
         font-size: 3.5rem;
         align-items: center;
-        padding: 70px;
-
+    }
+    .article {
+        font-size: 0.8rem;
+        text-wrap-style: pretty;
+        align-items: center;
+        text-align: center;
+        color: #425E44;
+    }
+    .img_pure_text {
+        background-color: #F4EDE6;
+        height: 80vh;
+        margin-left: 1%;
     }
     .img_pure {
         width: 49%;
+        height: 80vh;
     }
     .no_h2 {
         font-size: 10rem;
@@ -61,33 +70,38 @@
     }
         
     .try {
-        height: 50vh;
-        margin-top: 7%;
+        height: 80vh;
         display: flex;
-        justify-content: space-evenly;
         margin: 3% 3%;
         padding: 3% 3%;
-
+        align-items: center;
     }
 
     .try_class {   
         display: flex;
         background-image: url(../images/13.png);
-        width: 40%;
+        background-repeat: no-repeat;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        height: 80vh;
+        margin-right: 1%;
+        justify-content: center;
     }
     .h3_try {
         display: flex;
         justify-content: center;
         font-size: 3rem;
-        width: 60%;
-        padding: 3%;
+        width: 80%;
         font-weight: 30;
-        align-self:center;
+        margin-top: 15%;
+        align-self: center;
+        text-align: center;
     }
     .img_try {
         width: 49%;
+        padding: 3%;
+        margin: 5% 3%;
     }
     
     .pallets {
@@ -123,13 +137,14 @@
         display: flex;
         justify-content: center;
         font-size: 1rem;
-        width: 60%;
-        padding: 3%;
-        margin: 5%;
+        width: 100%;
+        margin-top: 0;
         font-weight: 30;
         align-items:center;
         flex-direction: column;
-        height: 50vh;
+        height: 80vh;
+        margin-left: 1%;
+        text-align: center;
         
     }
     .button_shop {
@@ -143,6 +158,9 @@
     }
     .h4_pallets {
         font-size: 2rem;
+        padding: 3%;
+        margin: 5%;
+        color: #425E44;
     }
     .h3_pallets {
         font-size: 4rem;
